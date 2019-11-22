@@ -3,3 +3,5 @@ Brasilia
 Ceara
 Parana
 Rio de Janeiro
+Bahia
+São Paulo
