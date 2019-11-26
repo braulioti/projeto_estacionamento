@@ -20,10 +20,9 @@
                 })}
             </td>
             <td>
-                <button class="delete">x</button>
-            </td>
-
-        `;
+                <button class"delete">x</button> 
+            </td> 
+            `;
 
         $("#garage").appendChild(row);
     };
@@ -65,7 +64,10 @@
         if(e.target.className == "delete")
             checkOut(e.target.parentElement.parentElement.cells);
 
-    })
-
+    });
 })();
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+  });
 
